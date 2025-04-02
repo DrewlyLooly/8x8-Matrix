@@ -1,0 +1,117 @@
+(footprint "TESTPOINT_SMT"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Surface Mount Test Point - Compact SMT")
+	(property "Reference" "REF**"
+		(at 3.048 1.143 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a4cc83e6-3515-4349-a1b9-1fb8d15bce41")
+		(effects
+			(font
+				(size 0.666496 0.666496)
+				(thickness 0.146304)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "TESTPOINT_SMT"
+		(at 3.048 1.778 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "15715d1d-fb6d-4179-aae7-54fcf1cbfa4d")
+		(effects
+			(font
+				(size 0.36576 0.36576)
+				(thickness 0.04064)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d0e775a6-8491-43a9-9780-c315db1e341a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "45dcb094-e481-476f-bb65-41a0aab32646")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9e0260f1-f40d-4776-9e0c-a2cb37f706b4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -2.75 -2)
+		(end 2.75 -2)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cb60a898-27dd-41de-867d-2411bf179478")
+	)
+	(fp_line
+		(start -2.75 2)
+		(end -2.75 -2)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c7284bb3-8bb0-45ad-bbd9-a45b53742651")
+	)
+	(fp_line
+		(start 2.75 -2)
+		(end 2.75 2)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e5f12379-db0f-470e-87a5-00d591088c90")
+	)
+	(fp_line
+		(start 2.75 2)
+		(end -2.75 2)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "88d12b4c-b6e1-4412-a72e-8c6233db809a")
+	)
+	(pad "P$1" smd rect
+		(at 0 0)
+		(size 4.7 3.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 0)
+		(uuid "6e0a01f1-2c6f-43f7-806b-af4212afa3f3")
+	)
+)
